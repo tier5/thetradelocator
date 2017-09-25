@@ -1,0 +1,876 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Wyzi
+    Theme Default CSS
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+  
+  1. Visual Composer Overrides
+  2. Common Classes
+  3. Margin & Padding
+  4. Section Title
+  5. Title & Social Area
+  6. Breadcrumbs
+  7. Forms
+    7.1. WYZI Search Form
+    7.2. Form Input
+  8. WYZI info boxes
+  9. Hidden Elements Displayed by js
+  10. Owl Carousel
+  11. Accessories
+    11.1. Scroll Up
+    11.2. Preloader
+    11.3. Scroll to top
+    11.4. Fit footer bottom
+    11.5. Pricing Tables
+  12. WYZI Button
+  13. Wordpress Elements Overrides
+
+
+-----------------------------------------------------------------------------------*/
+
+/**
+ * 1. Visual Composer Overrides
+ */
+.vc_col-lg-1,
+.vc_col-lg-10,
+.vc_col-lg-11,
+.vc_col-lg-12,
+.vc_col-lg-2,
+.vc_col-lg-3,
+.vc_col-lg-4,
+.vc_col-lg-5,
+.vc_col-lg-6,
+.vc_col-lg-7,
+.vc_col-lg-8,
+.vc_col-lg-9,
+.vc_col-md-1,
+.vc_col-md-10,
+.vc_col-md-11,
+.vc_col-md-12,
+.vc_col-md-2,
+.vc_col-md-3,
+.vc_col-md-4,
+.vc_col-md-5,
+.vc_col-md-6,
+.vc_col-md-7,
+.vc_col-md-8,
+.vc_col-md-9,
+.vc_col-sm-1,
+.vc_col-sm-10,
+.vc_col-sm-11,
+.vc_col-sm-12,
+.vc_col-sm-2,
+.vc_col-sm-3,
+.vc_col-sm-4,
+.vc_col-sm-5,
+.vc_col-sm-6,
+.vc_col-sm-7,
+.vc_col-sm-8,
+.vc_col-sm-9,
+.vc_col-xs-1,
+.vc_col-xs-10,
+.vc_col-xs-11,
+.vc_col-xs-12,
+.vc_col-xs-2,
+.vc_col-xs-3,
+.vc_col-xs-4,
+.vc_col-xs-5,
+.vc_col-xs-6,
+.vc_col-xs-7,
+.vc_col-xs-8,
+.vc_col-xs-9,
+.vc_column-inner{
+    min-height: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.vc_row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/**
+ * 2. Common Classes
+ */
+.fix {
+  overflow:hidden
+}
+.clear{
+  clear: both;
+}
+.center-text{
+  text-align: center;
+}
+.clearfix {
+  overflow: auto;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.table, .table-cell {
+  display: table;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.overlay {
+  background: rgba(0,0,0,0.2);
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+/**
+ * 3. Margin & Padding
+ */
+.margin-0 {
+  margin: 0px !important;
+}
+.margin-top-15 {
+  margin-top: 15px !important;
+}
+.margin-top-50 {
+  margin-top: 50px !important;
+}
+.margin-top-100 {
+  margin-top: 100px !important;
+}
+.margin-bottom-50 {
+  margin-bottom: 50px !important;
+}
+.margin-bottom-100 {
+  margin-bottom: 100px !important;
+}
+.margin-100 {
+  margin-bottom: 100px !important;
+  margin-top: 100px !important;
+}
+.padding-0 {
+ padding: 0px !important;
+}
+.padding-top-50 {
+ padding-top: 50px !important;
+}
+.padding-top-100 {
+ padding-top: 100px !important;
+}
+.padding-bottom-50 {
+  padding-bottom: 50px !important;
+}
+.padding-bottom-100 {
+  padding-bottom: 100px !important;
+}
+.padding-100 {
+  padding-bottom: 100px !important;
+  padding-top: 100px !important;
+}
+/**
+ * 4. Section Title
+ */
+.section-title {}
+.section-title-search {}
+.section-title h1 {
+  border-bottom: 2px solid #606060;
+  color: #303030;
+  float: left;
+  font-size: 18px;
+  line-height: 15px;
+  margin: 8px 0 0;
+  padding-bottom: 8px;
+  position: relative;
+  text-transform: uppercase;
+}
+.section-title.text-center h1 {
+  display: inline-block;
+  float: none;
+}
+/**
+ * 5. Title & Social Area
+ */
+.sidebar-title {
+  border-bottom: 2px solid #303030;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 25px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.page-title-social {
+  background-color: #e4ecf3;
+  padding: 24px 0;
+}
+.page-title-social .breadcrumbs {
+  margin-top: 0;
+}
+.page-title{}
+.page-title h2 {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.page-title-social .side-filter-cont {
+  width: 220px !important;
+}
+.page-title-social .side-filter-cont .selectator_input {
+  bottom: -41px !important;
+}
+.filter-mobile-trigger {
+  background-color: #00aeff;
+  display: none;
+  float: right;
+  height: 40px;
+  margin-bottom: -13px;
+  text-align: center;
+  width: 40px;
+}
+.filter-mobile-trigger i {
+  color: #e4ecf3;
+  font-size: 20px;
+  line-height: 40px;
+}
+.page-social{}
+.page-social a {
+  display: block;
+  float: left;
+  margin-left: 30px;
+}
+.page-social a.facebook:hover {
+  color: #3e57c2;
+}
+.page-social a.twitter:hover {
+  color: #00ACED;
+}
+.page-social a.dribbble:hover {
+  color: #EA4C89;
+}
+.page-social a.vimeo:hover {
+  color: #00B3EC;
+}
+.page-social a.google:hover {
+  color: #EA4335;
+}
+.page-social a.pinterest:hover {
+  color: #C92327;
+}
+.page-social a.instagram:hover {
+  color: #375989;
+}
+.page-social a:first-child {
+  margin-left: 0;
+}
+#selectator_wyz-loc-filter .selectator_chosen_item_left {
+  margin-right: 10px;
+}
+#selectator_wyz-loc-filter .selectator_chosen_item_left>img {
+  height: 30px;
+  margin-right: 5px;
+}
+/**
+ * 6. Breadcrumbs
+ */
+.breadcrumbs {
+  background-color: #e4ecf3;
+  padding: 6px 0;
+}
+.breadcrumb {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb li {
+  display: block;
+  float: left;
+  font-size: 12px;
+  position: relative;
+}
+.breadcrumb li + li {
+  margin-left: 11px;
+  padding-left: 16px;
+}
+.breadcrumb li + li::before {
+  color: #606060;
+  content: "\f105";
+  font-family: fontawesome;
+  left: -4px;
+  position: absolute;
+}
+.breadcrumb li a, .breadcrumb li span {
+  color: #606060;
+  display: block;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.breadcrumb li span{}
+
+/**
+ * 7. Forms
+ */
+/**
+ * 7.1. WYZI Search Form
+ */
+.wyz-search-form{}
+.wyz-search-form form {
+  display: block;
+  float: left;
+}
+.wyz-search-form input {
+  border: 1px solid #ececec;
+  color: #606060;
+  display: block;
+  float: left;
+  height: 36px;
+  margin-right: 18px;
+  padding: 0 20px;
+  width: 236px;
+}
+.wyz-search-form button {
+  background: #00aeff none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 12px;
+  height: 36px;
+  width: 41px;
+}
+.wyz-search-form button:hover {
+  background-color: #68819b;
+}
+.wyz-search-form button i{}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  opacity: 1;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  opacity: 1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
+}
+/**
+ * 7.2. Form Input
+ */
+.input-box {
+  float: left;
+  margin-bottom: 28px;
+  text-align: left;
+  width: 100%;
+}
+.input-box:last-child {
+  margin-bottom: 0;
+}
+.input-two, .input-three {
+  clear: both;
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+}
+.input-two.space-80, .input-three.space-80 {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+.input-two .input-box {
+  display: block;
+  float: left;
+  margin-bottom: 28px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50%;
+}
+.input-three .input-box {
+  display: block;
+  float: left;
+  margin-bottom: 28px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 33.33%;
+}
+.space-80 .input-box {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.input-box label {
+  color: #303030;
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.input-box label.opacity {
+  opacity: 0;
+}
+.input-box label span {
+  color: #ff000c;
+}
+.input-box input, .input-box textarea, .input-box select,
+.widget-area select, .wpb_widgetised_column .wpb_wrapper select, .wyz-select,
+.post-footer-comment-form .wyz-input {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #e2ebf1;
+  border-radius: 2px;
+  color: #606060;
+  font-size: 12px;
+  font-weight: 400;
+  height: 37px;
+  padding: 5px 22px;
+  text-align: left;
+  width: 100%;
+}
+.input-box.gray-bg input, .input-box.gray-bg textarea, .input-box.gray-bg select {
+  background: #f7f7f7;
+}
+.input-box select, .widget-area select,
+.wpb_widgetised_column .wpb_wrapper select, .wyz-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff url("../images/select-arrow.png") no-repeat scroll right center;
+  font-size: 14px;
+  padding: 5px 30px 5px 15px;
+}
+.input-box select::-ms-expand, .widget-area select::-ms-expand,
+.wpb_widgetised_column .wpb_wrapper select::-ms-expand {
+    display: none;
+}
+.input-box.transparent input, .input-box.transparent textarea , .input-box.transparent select {
+  background-color: transparent;
+}
+.input-box textarea {
+  height: 290px;
+  padding: 20px 22px;
+}
+.input-box input:focus, .input-box textarea:focus {
+  color: #303030;
+}
+.terms-and-cond {
+  margin-top: 20px;
+}
+/**
+ * 8. WYZI info boxes
+ */
+.wyz-warning {
+    border-left: 3px solid #ff0000;
+}
+.wyz-info {
+    border-left: 3px solid #00aeff;
+}
+.wyz-error {
+    border-left: 3px solid #ff0000;
+}
+.wyz-success {
+    border-left: 3px solid #00A014;
+}
+.wyz-error, .wyz-info, .wyz-warning, .wyz-success {
+    background-color: #e4ecf3;
+    float: left;
+    margin: 5px 0 25px;
+    width: 100%;
+}
+.wyz-error p, .wyz-info p, .wyz-success p, .wyz-warning p {
+    color: #6b6b6b;
+    font-family: Montserrat;
+    margin: 0 .5em;
+    padding: 5px;
+}
+/**
+ * 9. Hidden Elements Displayed by js
+ */
+.map-container,
+.category-search-area,
+.location-search-area,
+.our-offer-area,
+.recently-added-area,
+.featured-area {
+  display: none;
+ }
+/**
+ * 10. Owl Carousel
+ */
+.owl-nav {
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+.owl-nav > div {
+  background: #2d343d none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fbfbfb;
+  display: block;
+  float: left;
+  height: 29px;
+  margin-left: 5px;
+  text-align: center;
+  width: 29px;
+}
+.owl-nav div i {
+  display: block;
+  line-height: 29px;
+}
+.owl-nav .owl-prev {}
+.owl-nav .owl-next {}
+.owl-nav > div:hover {
+  background-color: #00aeff;
+}
+.owl-dots {
+  margin-top: 30px;
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  background: #e2e2e2 none repeat scroll 0 0;
+  border-radius: 50px;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+.owl-dots .owl-dot.active {
+  background: #ff343b none repeat scroll 0 0;
+}
+.owl-dots .owl-dot span{}
+/**
+ * 11. Accessories
+ */
+/**
+ * 11.1. Scroll Up
+ */
+#scrollUp {
+  bottom: 30px;
+  color: #fff;
+  font-size: 30px;
+  height: 40px;
+  line-height: 44px;
+  right: 30px;
+  text-align: center;
+  width: 40px;
+}
+#scrollUp i{}
+/**
+ * 11.2. Preloader
+ */
+.spinner {
+  margin: 100px auto 0;
+  width: 150px;
+  text-align: center;
+}
+.spinner > div {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  background-color: #ff6c1e;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+/**
+ * 11.3. Scroll to top
+ */
+.back-to-top {
+  background-color: #2d343d;
+  border: none;
+  border-radius: 3px;
+  bottom: 40px;
+  position: fixed;
+  right: 20px;
+  width: 45px;
+  z-index: 999;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 30px;
+  line-height: 28px;
+}
+.object{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 65px;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+.object_one {	
+  -webkit-animation: object_one 1.5s infinite;
+  animation: object_one 1.5s infinite;
+}
+.object_two {
+  -webkit-animation: object_two 1.5s infinite;
+  animation: object_two 1.5s infinite;
+  -webkit-animation-delay: 0.25s; 
+  animation-delay: 0.25s;
+}
+.object_three {
+  -webkit-animation: object_three 1.5s infinite;
+  animation: object_three 1.5s infinite;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+/**
+ * 11.4. Fit footer bottom
+ */
+.fit-footer-bottom {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+@-webkit-keyframes object_one {
+75% { -webkit-transform: scale(0); }
+}
+@keyframes object_one {
+  75% { 
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+}
+@-webkit-keyframes object_two {
+  75% { -webkit-transform: scale(0); }
+}
+@keyframes object_two {
+  75% { 
+    transform: scale(0);
+    -webkit-transform:  scale(0);
+  }
+}
+@-webkit-keyframes object_three {
+  75% { -webkit-transform: scale(0); }
+}
+@keyframes object_three {
+  75% { 
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+}
+/**
+ * 11.5. Pricing Tables
+ */
+#pmpro_levels .entry {
+  border-color: #cecece;
+  border-radius: 0;
+}
+#pmpro_levels .entry-header {
+  background-color: #e4ecf3;
+  border-color: #ececec;
+  border-radius: 0;
+  padding: 15px;
+}
+#pmpro_levels .entry-header h2 {
+  font-size: 20px;
+}
+#pmpro_levels p {
+  font-family: "Montserrat";
+}
+#pmpro_levels .blue-btn-square {
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+#pmpro_levels .fit-footer-bottom {
+  position: initial;
+}
+#subscription .pmpro_level {
+  border-bottom: 2px solid #ececec;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+#subscription .entry.post {
+  border: 1px solid #ececec;
+}
+#subscription .entry-header{
+  background-color: initial;
+  border-color: initial;
+  padding: initial;
+}
+#subscription .entry-header h2{
+  border-bottom: 2px solid #ececec;
+  padding-bottom: 10px;
+}
+#subscription .entry-content{
+  display: none;
+}
+#subscription .pmpro_btn.pmpro_btn-select {
+  background-color: #00aeff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/*
+ * 12. WYZI Button
+ */
+.wyz-button {
+  background-color: #68819b;
+  border: medium none;
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 12px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 18px;
+  text-transform: uppercase;
+}
+.text-center .wyz-button {
+  display: inline-block;
+  float: none;
+}
+.wyz-button:hover,
+.wyz-button:focus {
+  background-color: #ff6d1e;
+  color: #fff !important;
+}
+.wyz-button.icon {
+  padding-right: 13px;
+}
+.wyz-button.icon:hover {
+  background-color: #68819b;
+}
+.wyz-button i {
+  background-color: rgba(255, 255, 255, 0.23);
+  border-radius: 50px;
+  display: block;
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  right: -10px;
+  text-align: center;
+  top: 3px;
+  width: 30px;
+}
+.wyz-button.blue {
+  background-color: #00aeff;
+}
+.wyz-button.blue i {}
+.wyz-button.green {
+  background-color: #30c957;
+}
+.wyz-button.green i {}
+.wyz-button.orange {
+  background-color: #ff6d1e;
+}
+.wyz-button.orange i {}
+.blue-btn-square,
+.wp-picker-clear,
+.ui-datepicker-buttonpane button,
+.post-password-form input[type="submit"],
+.open-close-days .cmb-remove-field-row button.cmb-remove-group-row,
+.open-close-days .cmb-row .cmb-add-row button.cmb-add-group-row {
+  background: #00aeff none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 2px;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 12px;
+  height: 31px;
+  line-height: 31px;
+  margin-top: 10px;
+  padding: 0 13px !important;
+  text-transform: uppercase;
+}
+.post-password-form input[type="submit"] {
+  display: inline-block;
+  float: none;
+  margin-top: 0;
+}
+/*
+ * 13. Wordpress Elements Overrides
+ */
+.wp-picker-clear {
+  display: inline;
+  float: none;
+  line-height: 20px;
+  margin-top: 0;
+}
+.blue-btn-square:hover, .blue-btn-square:focus,
+.wp-picker-clear:hover, .wp-picker-clear:focus,
+.ui-datepicker-buttonpane button:hover, .ui-datepicker-buttonpane button:focus {
+  background-color: #91a9bb !important;
+  color: #fff !important;
+}
+.wp-picker-open+.wp-picker-input-wrap {
+  line-height: 24px;
+}
+.wp-picker-container input[type=text].wp-color-picker {
+  border: 1px solid #e9e9e9 !important;
+  padding: 3px 0 !important;
+  text-align: center;
+}
+.wp-picker-container .wyz-button {
+  float: right !important;
+  height: 26px !important;
+  line-height: 18px !important;
+  padding: 0 16px !important;
+}
+.wp-picker-container .wyz-button:focus {
+  background-color: #ff6d1e !important;
+  color: #fff !important;
+}
+.wp-color-result {
+  height: 26px !important;
+  border: 1px solid #e9e9e9 !important;
+  border-radius: 30px !important;
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.wp-color-result:after {
+  background-color: #fff !important;
+  border-radius: 30px !important;
+  color: #606060 !important;
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  right: 2px !important;
+  top: 2px !important;
+}
+.iris-picker-inner * {
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+}

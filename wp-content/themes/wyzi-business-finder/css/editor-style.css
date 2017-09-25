@@ -1,0 +1,97 @@
+img {
+  max-width:100%;
+  height:auto
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #303030;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+p {
+  margin-bottom: 24px;
+}
+a, button{
+  text-decoration:none;
+  color: #606060;
+}
+p a {
+  color: #3396d1;
+}
+p {
+  word-wrap: break-word;
+}
+table {
+  width: 100%;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+th {
+  color: #333;
+  text-align: left;
+  padding: 10px 30px 10px 10px;
+}
+td {
+  padding: 10px;
+}
+dd {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+address {
+  font-style: italic;
+}
+a, button, img, input, span {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color: #ff6d1e;
+}
+*:focus {
+  outline:0px solid
+}
+a:focus {
+  color: #303030;
+  outline: medium none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul{
+  list-style: disc;
+}
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 24px;
+  padding: 0;
+}
+iframe {
+  max-width: 100%;
+}
+.content ul li, .content ol li {
+  line-height: 28px;
+  padding: 0;
+}
+.page-links a:link, .page-links a:focus,.page-links>.page-links-before {
+  background-color: #00aeff;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  line-height: 10px;
+  margin-left: 5px;
+  padding: 10px;
+}
+.page-links>.page-links-before {
+  background-color: #ff6d1e;
+}
+.page-links a:hover {
+  background-color: #ff6d1e;
+}
+.page-links .page-links-before {
+  color: #fff;
+}
+.youtube-player {
+  width:100%;
+}

@@ -1,0 +1,653 @@
+/*-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+  
+  1. Gallery
+  2. Default WordPress Widgets
+    2.1. Search
+    2.2. Calendar
+    2.3. Lists
+    2.4. Recent Comments Widget
+    2.5. Sidebar Widget Title
+    2.6. RSS Widget
+  3. Widget Container
+  4. Post Comment Form
+  5. Password Strength Form
+  6. WP Media Uploader
+  7. Footer Widget Area
+  8. Content Styles
+
+
+-----------------------------------------------------------------------------------*/
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+/**
+ * 1. Gallery
+ */
+.gallery .gallery-item {
+	float: left;
+    list-style: none;
+    margin: 0px 0 0;
+    overflow: hidden;
+    padding: 0px 0px 5px 15px;
+    text-align: center;
+}
+.gallery-icon img {
+	margin: 0 auto;
+}
+.gallery .gallery-item img {
+	float: left;
+	padding: 0 0px;
+	width: 100%;
+	border: none !important
+}
+.gallery .gallery-caption {
+	padding-top: 10px;
+    font-size: 13px;
+}
+.gallery-caption {
+	clear: both;
+	color: rgba(51, 51, 51, 0.7);
+    display: block;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+	max-width: 12%;
+}
+.gallery-columns-9 .gallery-item {
+	max-width: 11%;
+}
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+/**
+ * 2. Default WordPress Widgets
+ */
+ /**
+ * 2.1. Search
+ */
+.widget-area #searchform #s,
+.widget #searchform #s,
+.wpb_widgetised_column .wpb_wrapper #searchform #s,
+.widget .newsletter-sidebar .subscribe-form input[type=text] {
+	border: 1px solid #ececec;
+	color: #817975;
+	height: 45px;
+	padding: 5px 11px;
+	transition: none;
+	width: 76%;
+}
+.widget-area #searchform #s:focus,
+.widget #searchform #s:focus,
+.wpb_widgetised_column .wpb_wrapper #searchform #s:focus,
+.widget .newsletter-sidebar .subscribe-form input[type=text]:focus {
+	color: #817975;
+}
+.widget-area #searchform #s::-webkit-input-placeholder,
+.widget #searchform #s::-webkit-input-placeholder,
+.wpb_widgetised_column .wpb_wrapper #searchform #s::-webkit-input-placeholder,
+.widget .newsletter-sidebar .subscribe-form input[type=text]::-webkit-input-placeholder {
+	color: #aaa;
+}
+.widget-area #searchform input[type=text] input:-moz-placeholder,
+.widget #searchform input[type=text] input:-moz-placeholder,
+.wpb_widgetised_column .wpb_wrapper #searchform input[type=text] input:-moz-placeholder,
+.widget .newsletter-sidebar .subscribe-form input[type=text]:-moz-placeholder { /* Firefox 18- */
+	color: #aaa;  
+}
+.widget-area #searchform input[type=text]::-moz-placeholder,
+.widget #searchform input[type=text]::-moz-placeholder,
+.wpb_widgetised_column .wpb_wrapper #searchform input[type=text]::-moz-placeholder,
+.widget .newsletter-sidebar .subscribe-form input[type=text]::-moz-placeholder {  /* Firefox 19+ */
+	color: #aaa;  
+}
+.widget-area #searchform input[type=text]:-ms-input-placeholder,
+.widget #searchform input[type=text]:-ms-input-placeholder,
+.wpb_widgetised_column .wpb_wrapper #searchform input[type=text]:-ms-input-placeholder,
+.widget .newsletter-sidebar .subscribe-form input[type=text]:-ms-input-placeholder {  
+	color: #aaa;  
+}
+.widget-area #searchform #searchsubmit,
+.widget #searchform #searchsubmit,
+.wpb_widgetised_column .wpb_wrapper #searchsubmit,
+.widget .newsletter-sidebar .subscribe-form input[type=submit] {
+	border: 0;
+	background-color: #4285f4;
+	color: #fff;
+	font-size: 13px;
+	height: 44px;
+	line-height: 22px;
+  	padding: 10px 17px;
+	text-transform: uppercase;
+	width: auto;
+}
+.widget-area #searchform #searchsubmit:hover,
+.widget #searchform #searchsubmit:hover,
+.wpb_widgetised_column .wpb_wrapper #searchsubmit:hover,
+.widget .newsletter-sidebar .subscribe-form input[type=submit]:hover {
+	background-color: #f1f1f1;
+	color: #999;
+}
+/*.widget-area #searchform #searchsubmit,
+.wpb_widgetised_column .wpb_wrapper #searchsubmit {
+    display: none;
+}*/
+/**
+ * 2.2. Calendar
+ */
+#wp-calendar {
+	border-collapse: separate;
+	border-spacing: 3px;
+	position: relative;
+	width: 100%;
+}
+#wp-calendar, #wp-calendar th, #wp-calendar td {
+    border: 0 !important;
+}
+#wp-calendar caption {
+	color: #606060;
+	font-size: 12px;
+    font-weight: 600;
+	text-align: right;
+}
+
+#wp-calendar thead {
+	font-size: 10px;
+}
+#wp-calendar thead th {
+	color: #606060;
+	padding: 0;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#wp-calendar tbody {
+	color: #aaa;
+}
+#wp-calendar tbody td{
+	background-color: #f8f8f8;
+    border: 1px solid #ebebeb;
+	color: #636d77;
+	font-size: 12px;
+	padding:8px;
+	text-align: center;
+}
+#wp-calendar tbody td.pad {
+	background: none;
+	border: none;
+}
+#wp-calendar tfoot #next{
+	font-size: 10px;
+	text-align: right;
+	text-transform: uppercase;
+}
+#wp-calendar #today{
+	background-color: #00aeff;
+    border: none;
+	color: #fff;
+    font-weight: 600;
+}
+#wp-calendar tfoot #prev{
+	font-size: 10px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+/**
+ * 2.3. Lists
+ */
+.widget-area .widget ul,
+.wpb_widgetised_column .wpb_wrapper .widget ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.widget-area .widget .textwidget ul,
+.wpb_widgetised_column .wpb_wrapper .widget .textwidget ul {
+	list-style: disc;
+}
+.widget-area .widget .textwidget ul,
+.widget-area .widget .textwidget ol,
+.wpb_widgetised_column .wpb_wrapper .widget .textwidget ul,
+.wpb_widgetised_column .wpb_wrapper .widget .textwidget ol {
+	margin-left: 20px;
+    margin-bottom: 24px;
+}
+.widget li a:before {
+	color: #aaa;
+	font-family: FontAwesome;
+	content: "\f0da";
+	margin-right: 5px;
+}
+.wpb_widgetised_column .wpb_wrapper .widget li a:before,
+.widget-area .widget li a:before{
+	color: #aaa;
+	font-family: FontAwesome;
+	content: "\f0da";
+	margin-right: 5px;
+}
+/**
+ * 2.4. Recent Comments Widget
+ */
+#recentcomments li.recentcomments,
+.widget_recent_entries li,
+.widget_archive li,
+.widget_categories li,
+.widget_meta li {
+	font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+	position: relative;
+}
+#recentcomments {
+	list-style: none;
+	padding: 0;
+}
+.widget-area #recentcomments li.recentcomments,
+.widget-area .widget_recent_entries li,
+.widget-area .widget_archive li,
+.widget-area .widget_pages li,
+.widget-area .widget_categories li,
+.widget-area .widget_meta li,
+.widget-area .widget_nav_menu li,
+.wpb_widgetised_column .wpb_wrapper #recentcomments li.recentcomments,
+.wpb_widgetised_column .wpb_wrapper .widget_recent_entries li,
+.wpb_widgetised_column .wpb_wrapper .widget_archive li,
+.wpb_widgetised_column .wpb_wrapper .widget_pages li,
+.wpb_widgetised_column .wpb_wrapper .widget_categories li,
+.wpb_widgetised_column .wpb_wrapper .widget_nav_menu li,
+.wpb_widgetised_column .wpb_wrapper .widget_meta li {
+    margin: 0px 0px 25px;
+    padding: 0px 0px 0px 15px;
+}
+.widget-area .widget_nav_menu .sub-menu li,
+.wpb_widgetised_column .wpb_wrapper .widget_nav_menu .sub-menu li{
+	margin: 10px 0;
+}
+.widget-area .widget_nav_menu .sub-menu li:last-child > a,
+.wpb_widgetised_column .wpb_wrapper .widget_nav_menu .sub-menu li:last-child > a{
+	padding-bottom: 0;
+}
+.widget-area .widget_pages .children,
+.wpb_widgetised_column .wpb_wrapper .widget_pages .children,
+.widget-area .widget_categories ul.children,
+.wpb_widgetised_column .wpb_wrapper .widget_categories ul.children{
+	margin-top: 15px;
+}
+.widget-area .widget_pages .page_item_has_children ul.children li,
+.wpb_widgetised_column .wpb_wrapper .widget_pages .page_item_has_children ul.children li{
+	margin: 20px 0;
+}
+.widget-area .widget_categories ul.children li,
+.wpb_widgetised_column .wpb_wrapper .widget_categories ul.children li{
+	margin: 20px 0;
+}
+.widget-area .widget_pages .page_item_has_children ul.children li:last-child,
+.wpb_widgetised_column .wpb_wrapper .widget_pages .page_item_has_children ul.children li:last-child,
+.widget-area .widget_categories ul.children li:last-child,
+.wpb_widgetised_column .wpb_wrapper .widget_categories ul.children li:last-child{
+	margin-bottom: 0;
+}
+.widget-area .widget_pages li li:last-child > a,
+.wpb_widgetised_column .wpb_wrapper .widget_pages li li:last-child > a,
+.widget-area .widget_categories li li:last-child > a,
+.wpb_widgetised_column .wpb_wrapper .widget_categories li li:last-child > a {
+	padding-bottom: 0;
+}
+.comment-subscription-form {
+	float: right;
+	line-height: 30px;
+	margin-left: 15px;
+	max-width: 80%;
+}
+.comment-subscription-form input[type="checkbox"] {
+	margin-top: -2px;
+	vertical-align: middle;
+}
+.comment-subscription-form .subscribe-label {
+	font-family: montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	vertical-align: middle;
+}
+/**
+ * 2.5. Sidebar Widget Title
+ */
+.sidebar-widget-area .widget,
+.sidebar-wrapper .widget,
+.wpb_widgetised_column .wpb_wrapper .widget  {
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.sidebar-widget-area .widget:last-child,
+.sidebar-wrapper .widget:last-child,
+.wpb_widgetised_column .wpb_wrapper .widget:last-child {
+    margin-bottom: 0;
+}
+.sidebar-widget-area .widget.transparent,
+.wpb_widgetised_column .wpb_wrapper .widget.transparent {
+    background-color: transparent;
+    padding: 0;
+}
+.widget-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.sidebar-widget-area .widget-title,
+.wpb_widgetised_column .wpb_wrapper .widget-title {
+	color: #444;
+	font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 30px;
+}
+.sidebar-widget-area .widget:first-child .widget-title,
+.wpb_widgetised_column .wpb_wrapper .widget:first-child .widget-title {
+    margin-top: 0;
+}
+/**
+ * 2.6. RSS Widget
+ */
+.widget_rss .rsswidget {
+	color: #303030;
+	font-weight: 600;
+}
+.widget_rss .rss-date {
+	font-style: italic;
+}
+.widget_rss li {
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+}
+.widget_rss li:first-child {
+	padding: 0 0 5px 0;
+}
+.widget_rss li:last-child {
+	border-bottom: 0;
+	padding: 5px 0 0 0;
+}
+.widget_rss cite {
+	font-size: 12px;
+}
+
+/**
+ * 3. Widget Container
+ */
+.sidebar-widget-area .screen-reader-text,
+.wpb_widgetised_column .wpb_wrapper .screen-reader-text {
+	color: #606060;
+	display: block;
+	font-family: montserrat;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 33px;
+}
+
+/*
+ * 4. Post Comment Form
+ */
+.comment-list .comment {
+    padding-left: 110px;
+    position: relative;
+}
+.comment-list .comment-author>img {
+	border-radius: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.comment-list .comment-author .fn {
+	color: #666666;
+	display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 7px;
+}
+.comment-list .bypostauthor .comment-author .fn {
+	font-style: italic;
+	font-weight: 600;
+}
+.comment-list span.says {
+	display: none;
+}
+.comment-list .comment-meta.commentmetadata {
+	color: #999999;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+.comment-list .reply {
+	position: absolute;
+	right: 25px;
+	top: -4px;
+}
+.comment-list .reply a {
+    color: #4285f4;
+    display: block;
+    float: right;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.comment-list .comment p {
+    color: #888888;
+    font-weight: 500;
+}
+.comment-list .comment.parent .comment {
+	margin-top: 45px;
+}
+.comment-list .comment.depth-1 {
+	margin-bottom: 70px;
+}
+.comment-list .comment.depth-1:last-child {
+	margin-bottom: 0;
+}
+
+
+.comment-form {}
+.comment-form form {}
+#comments form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+#comments form input {
+  border: 1px solid #ddd;
+  float: left;
+  height: 36px;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  width: 100%;
+}
+#comments form textarea {
+  border: 1px solid #ddd;
+  float: left;
+  height: 120px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  padding: 5px 15px;
+  transition: none;
+  width: 100%;
+}
+#comments form button[type="submit"] {
+	font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+
+#respond.comment-respond {
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+#respond #submit,
+#comments .form-submit{
+	display: none;
+}
+.comment-list #respond .comment-form-message {
+	float: none !important;
+}
+.comment-list #respond .wyz-button.orange {
+	float: none !important;
+}
+#comment-nav-above {
+	height: 40px;
+}
+.pingback {
+	line-height: 28px;
+}
+
+/**
+ *  5. Password Strength Form
+ */
+#password-strength{
+    height: 25px;
+    line-height: 25px;
+    display: none;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+#password-strength.bad{
+    background-color: #f1adad;
+    border-color: #e35b5b;
+    display: block;
+}
+#password-strength.good{
+    background-color: #ffe399;
+    border-color: #ffc733;
+    display: block;
+}
+#password-strength.strong{
+    background-color: #c1e1b9;
+    border-color: #83c373;
+    display: block;
+}
+#password-strength.short{
+    background-color: #f1adad;
+    border-color: #e35b5b;
+    display: block;
+}
+
+/**
+ *  6. WP Media Uploader
+ */
+.media-modal-content .attachments-browser .media-toolbar-secondary {
+	width: 50% !important;
+}
+.attachments-browser .media-toolbar-primary {
+	max-width: 50% !important;
+}
+.media-modal-content .media-toolbar-primary.search-form {
+	width: 50% !important;
+}
+.media-modal-content .attachments-browser .search {
+	width: 70% !important;
+}
+.media-modal label, .media-modal legend {
+	margin-right: 10px !important;
+}
+.media-modal-close {
+	width: 130px !important;
+}
+
+/**
+ *  7. Footer Widget Area
+ */
+.footer-widget {}
+.footer-widget .widget-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 35px;
+}
+/*.footer-widget p,
+.footer-widget .textwidget {
+  color: #ffffff;
+  font-size: 12px;
+}*/
+/*.footer-widget .widget a {
+	color: #fff;
+}
+.footer-widget .widget a:hover {
+	color: #ff6d1e;
+}*/
+
+/**
+ *  8. Content Styles
+ */
+.alignleft {
+	float: left;
+	margin: 5px 25px 25px 0;
+}
+.alignright {
+	float: right;
+	margin: 5px 0 25px 25px;
+}
+.alighcenter, div.aligncenter {
+	display: block;
+	margin: 5px auto 15px;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+.wp-caption p.wp-caption-text {
+	color: #9d9d9d;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0;
+	padding: 10px 0;
+	text-align: left;
+}
+.ui-datepicker-buttonpane .wp-core-ui .button-primary {
+	text-shadow: none;
+}
+
+.wp-core-ui .notice.is-dismissible {
+	overflow: auto;
+}

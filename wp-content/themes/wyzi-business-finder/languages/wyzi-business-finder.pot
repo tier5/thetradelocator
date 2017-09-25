@@ -1,0 +1,2137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-13 01:23+0300\n"
+"PO-Revision-Date: 2017-08-13 01:24+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: content-empty-search.php:12
+msgid "Search field is empty!"
+msgstr ""
+
+#: content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:17
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:82
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:83
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:84
+msgid "Login Menu"
+msgstr ""
+
+#: searchform.php:11
+msgid "search something"
+msgstr ""
+
+#: auto-import/wyz-importer.php:38 auto-import/wyz-importer.php:44
+msgid "An unknown API error occurred."
+msgstr ""
+
+#: auto-import/wyz-importer.php:71 auto-import/wyz-importer.php:72
+msgid "Demo Content"
+msgstr ""
+
+#: auto-import/wyz-importer.php:122
+msgid ""
+"Thank you for choosing WYZI. Your product must be registered to receive "
+"demos. The instructions below must be followed exactly."
+msgstr ""
+
+#: auto-import/wyz-importer.php:131
+msgid "Invalid token provided"
+msgstr ""
+
+#: auto-import/wyz-importer.php:147
+msgid "Your Token ID, and not your purchase code"
+msgstr ""
+
+#: auto-import/wyz-importer.php:149
+#: auto-import/includes/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: auto-import/wyz-importer.php:153
+msgid "Instructions For Generating A Token"
+msgstr ""
+
+#: auto-import/wyz-importer.php:155
+#, php-format
+msgid ""
+"Click on this <a href=\"%1$s\" target=\"_blank\">Generate A Personal Token</"
+"a> link. <strong>IMPORTANT:</strong> You must be logged into the same "
+"Themeforest account that purchased %2$s. If you are logged in already, look "
+"in the top menu bar to ensure it is the right account. If you are not logged "
+"in, you will be directed to login then directed back to the Create A Token "
+"Page."
+msgstr ""
+
+#: auto-import/wyz-importer.php:156
+msgid ""
+"Enter a name for your token, then check the boxes for <strong>View Your "
+"Envato Account Username, Download Your Purchased Items, List Purchases "
+"You've Made</strong> and <strong>Verify Purchases You've Made</strong> from "
+"the permissions needed section. Check the box to agree to the terms and "
+"conditions, then click the <strong>Create Token button</strong>"
+msgstr ""
+
+#: auto-import/wyz-importer.php:157
+msgid ""
+"A new page will load with a token number in a box. Copy the token number "
+"then come back to this registration page and paste it into the field below "
+"and click the <strong>Submit</strong> button."
+msgstr ""
+
+#: auto-import/wyz-importer.php:158
+msgid ""
+"You will see a green check mark for success, or a failure message if "
+"something went wrong. If it failed, please make sure you followed the steps "
+"above correctly."
+msgstr ""
+
+#: auto-import/wyz-importer.php:170
+msgid "One Click Demo Content Import"
+msgstr ""
+
+#: auto-import/wyz-importer.php:172
+msgid "Import of demo content completed! Enjoy!"
+msgstr ""
+
+#: auto-import/wyz-importer.php:174
+msgid "Note"
+msgstr ""
+
+#: auto-import/wyz-importer.php:174
+msgid ""
+"Please, make sure that you've installed all recommended plugins for the "
+"Theme, if you want to get correctly working demo."
+msgstr ""
+
+#: auto-import/wyz-importer.php:187
+msgid "Select which demo you want to import"
+msgstr ""
+
+#: auto-import/wyz-importer.php:190
+msgid "Import demo content WITHOUT media files"
+msgstr ""
+
+#: auto-import/wyz-importer.php:191
+msgid ""
+"This is a quick import, which will import all pages, posts, menus, etc. "
+"without demo images."
+msgstr ""
+
+#: auto-import/wyz-importer.php:194
+msgid "Import demo content WITH media files"
+msgstr ""
+
+#: auto-import/wyz-importer.php:195
+msgid ""
+"This will import all demo images, but it can take much time to complete an "
+"import."
+msgstr ""
+
+#: auto-import/includes/parsers.php:42 auto-import/includes/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: auto-import/includes/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: auto-import/includes/parsers.php:67 auto-import/includes/parsers.php:72
+#: auto-import/includes/parsers.php:294 auto-import/includes/parsers.php:486
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:34
+msgid "You must upload a <b>.wie</b> file generated by this plugin."
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:77
+msgid "Import file could not be found. Please try again."
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:112
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:154
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:176
+msgid "Site does not support widget"
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:212
+msgid "Widget already exists"
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:261
+msgid "Imported"
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:264
+msgid "Imported to Inactive"
+msgstr ""
+
+#: auto-import/includes/widgets-import.php:271
+msgid "No Title"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:134
+#: auto-import/includes/wordpress-importer.php:143
+#: auto-import/includes/wordpress-importer.php:194
+#: auto-import/includes/wordpress-importer.php:198
+#: auto-import/includes/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:427
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:471
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:520
+#: auto-import/includes/wordpress-importer.php:742
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:609
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:646
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:708
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:873
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:880
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:943
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:956
+msgid "Invalid file type"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:1014
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:1032
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:1038
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:1137
+msgid "Import WordPress"
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:1144
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:1159
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: auto-import/includes/wordpress-importer.php:1160
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/theme-options.php:35
+msgid "General"
+msgstr ""
+
+#: includes/theme-options.php:39
+msgid "Header"
+msgstr ""
+
+#: includes/theme-options.php:43
+msgid "Typography"
+msgstr ""
+
+#: includes/theme-options.php:47
+msgid "Footer"
+msgstr ""
+
+#: includes/theme-options.php:51
+msgid "Background"
+msgstr ""
+
+#: includes/theme-options.php:55 includes/theme-options.php:770
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/theme-options.php:59 includes/theme-options.php:790
+msgid "Custom Script"
+msgstr ""
+
+#: includes/theme-options.php:63
+msgid "Accessories"
+msgstr ""
+
+#: includes/theme-options.php:67
+msgid "Social Links"
+msgstr ""
+
+#: includes/theme-options.php:71
+msgid "Contact"
+msgstr ""
+
+#: includes/theme-options.php:75 includes/theme-options.php:1104
+msgid "Default Images"
+msgstr ""
+
+#: includes/theme-options.php:79
+msgid "404 Page"
+msgstr ""
+
+#: includes/theme-options.php:90
+msgid "General Options"
+msgstr ""
+
+#: includes/theme-options.php:98
+msgid "Site Logo"
+msgstr ""
+
+#: includes/theme-options.php:99
+msgid "Choose Logo"
+msgstr ""
+
+#: includes/theme-options.php:105
+msgid "Logo Dimensions"
+msgstr ""
+
+#: includes/theme-options.php:106
+msgid "If logo is available, set its width and height"
+msgstr ""
+
+#: includes/theme-options.php:113
+msgid "Logo Spacing"
+msgstr ""
+
+#: includes/theme-options.php:126
+msgid "Title Logo Font"
+msgstr ""
+
+#: includes/theme-options.php:127
+msgid "Set the font properties of the title when logo image is not set."
+msgstr ""
+
+#: includes/theme-options.php:134 includes/theme-options.php:191
+msgid "Responsive"
+msgstr ""
+
+#: includes/theme-options.php:135 includes/theme-options.php:192
+msgid "Enable/Disable site responsiveness"
+msgstr ""
+
+#: includes/theme-options.php:142
+msgid "Content Width"
+msgstr ""
+
+#: includes/theme-options.php:143
+msgid "Set the site's content width."
+msgstr ""
+
+#: includes/theme-options.php:169
+msgid "Blog Title"
+msgstr ""
+
+#: includes/theme-options.php:170
+msgid "Title for front page in case front page displays your latest posts."
+msgstr ""
+
+#: includes/theme-options.php:177
+msgid "Default Page Layout"
+msgstr ""
+
+#: includes/theme-options.php:184
+msgid "Shop Page Layout"
+msgstr ""
+
+#: includes/theme-options.php:199
+msgid "One Page layout"
+msgstr ""
+
+#: includes/theme-options.php:202
+msgid "Enable/disable one page layout"
+msgstr ""
+
+#: includes/theme-options.php:208
+msgid "Which Business to display as your site's landing page"
+msgstr ""
+
+#: includes/theme-options.php:218
+msgid "Site Template"
+msgstr ""
+
+#: includes/theme-options.php:221
+msgid "Choose which template you want for your site."
+msgstr ""
+
+#: includes/theme-options.php:225
+msgid "Template 1"
+msgstr ""
+
+#: includes/theme-options.php:230
+msgid "Template 2"
+msgstr ""
+
+#: includes/theme-options.php:237
+msgid "Listing Archives Essential Grid Alias"
+msgstr ""
+
+#: includes/theme-options.php:245
+msgid "Listing Search Essential Grid Alias"
+msgstr ""
+
+#: includes/theme-options.php:253
+msgid "Terms and Conditions"
+msgstr ""
+
+#: includes/theme-options.php:254
+msgid "Display terms and conditions link in sign up page"
+msgstr ""
+
+#: includes/theme-options.php:262
+msgid "The text to display in the terms and coditions notice."
+msgstr ""
+
+#: includes/theme-options.php:262
+#, php-format
+msgid "Place the word you want to become a link in between %%."
+msgstr ""
+
+#: includes/theme-options.php:276
+msgid "Header Options"
+msgstr ""
+
+#: includes/theme-options.php:277
+msgid "Here are the options for customising the menu"
+msgstr ""
+
+#: includes/theme-options.php:284 includes/theme-options.php:292
+msgid "Header Layout"
+msgstr ""
+
+#: includes/theme-options.php:300
+msgid "Header Login Menu"
+msgstr ""
+
+#: includes/theme-options.php:326
+msgid "Display Utility Bar"
+msgstr ""
+
+#: includes/theme-options.php:333
+msgid "Utility Bar BG color"
+msgstr ""
+
+#: includes/theme-options.php:334
+msgid "Set the background color for the Utility bar."
+msgstr ""
+
+#: includes/theme-options.php:342
+msgid "Utility Bar Text color"
+msgstr ""
+
+#: includes/theme-options.php:343
+msgid "Set the text color for the Utility bar."
+msgstr ""
+
+#: includes/theme-options.php:351
+msgid "Support Label"
+msgstr ""
+
+#: includes/theme-options.php:352
+msgid ""
+"Label for the link that users can click on to get support. Displays in the "
+"utility bar"
+msgstr ""
+
+#: includes/theme-options.php:360
+msgid "Support Link"
+msgstr ""
+
+#: includes/theme-options.php:361
+msgid "The link that users are taken to when they click on 'Support'."
+msgstr ""
+
+#: includes/theme-options.php:369
+msgid "Subheader BG Image"
+msgstr ""
+
+#: includes/theme-options.php:377
+msgid "My Account Button Content"
+msgstr ""
+
+#: includes/theme-options.php:378
+msgid ""
+"What should be displayed inside the 'My Account' button in the login "
+"menuwhen user is logged in"
+msgstr ""
+
+#: includes/theme-options.php:385
+msgid "-- Choose One --"
+msgstr ""
+
+#: includes/theme-options.php:390
+msgid "User's First Name"
+msgstr ""
+
+#: includes/theme-options.php:395
+msgid "User's Last Name"
+msgstr ""
+
+#: includes/theme-options.php:400
+msgid "User's UserName"
+msgstr ""
+
+#: includes/theme-options.php:405
+msgid "Custom text"
+msgstr ""
+
+#: includes/theme-options.php:412
+msgid "'My Account' Button Custom Text Content"
+msgstr ""
+
+#: includes/theme-options.php:421
+msgid "Menu BG color"
+msgstr ""
+
+#: includes/theme-options.php:422
+msgid "Set the background color for the menu"
+msgstr ""
+
+#: includes/theme-options.php:429
+msgid "Menu default link color"
+msgstr ""
+
+#: includes/theme-options.php:430
+msgid "Set the default text color"
+msgstr ""
+
+#: includes/theme-options.php:437
+msgid "Current page menu item color"
+msgstr ""
+
+#: includes/theme-options.php:438
+msgid "Set the text color to current page menu item"
+msgstr ""
+
+#: includes/theme-options.php:445
+msgid "Current page menu item background color"
+msgstr ""
+
+#: includes/theme-options.php:446
+msgid "Set the background color to current page menu item"
+msgstr ""
+
+#: includes/theme-options.php:453
+msgid "Menu item on-hover color"
+msgstr ""
+
+#: includes/theme-options.php:454
+msgid "Set the text color to menu items on hover"
+msgstr ""
+
+#: includes/theme-options.php:461
+msgid "Menu item on-hover background color"
+msgstr ""
+
+#: includes/theme-options.php:462
+msgid "Set the background color to menu items on hover"
+msgstr ""
+
+#: includes/theme-options.php:469
+msgid "Menu text font"
+msgstr ""
+
+#: includes/theme-options.php:470
+msgid "Set the font size, style and weight for the menu links"
+msgstr ""
+
+#: includes/theme-options.php:477
+msgid "Display BreadCrumbs"
+msgstr ""
+
+#: includes/theme-options.php:484
+msgid "Header Search Form"
+msgstr ""
+
+#: includes/theme-options.php:492
+msgid "Right Menu Link For Logged in users"
+msgstr ""
+
+#: includes/theme-options.php:499 includes/theme-options.php:563
+msgid "Right Menu link Title"
+msgstr ""
+
+#: includes/theme-options.php:507 includes/theme-options.php:571
+msgid "Link to"
+msgstr ""
+
+#: includes/theme-options.php:508
+msgid "What does the right menu item link to"
+msgstr ""
+
+#: includes/theme-options.php:522
+msgid "Add New Listing"
+msgstr ""
+
+#: includes/theme-options.php:527 includes/theme-options.php:585
+#: templates/layouts/contact/contact-1.php:22
+#: templates/layouts/contact/contact-2.php:22 templates/page/page-1.php:23
+#: templates/page/page-2.php:23 wyz-core/wyz-core-functions.php:187
+msgid "Page"
+msgstr ""
+
+#: includes/theme-options.php:532 includes/theme-options.php:590
+msgid "Custom Link"
+msgstr ""
+
+#: includes/theme-options.php:540 includes/theme-options.php:598
+msgid "Select Page"
+msgstr ""
+
+#: includes/theme-options.php:547 includes/theme-options.php:605
+msgid "Set Link"
+msgstr ""
+
+#: includes/theme-options.php:555
+msgid "Right Menu Link For Non-Logged in users"
+msgstr ""
+
+#: includes/theme-options.php:572
+msgid "What does the right menu item link to for non logged in users"
+msgstr ""
+
+#: includes/theme-options.php:616
+msgid "Typography Options"
+msgstr ""
+
+#: includes/theme-options.php:617
+msgid "Here you can customise the theme's typography"
+msgstr ""
+
+#: includes/theme-options.php:624
+msgid "WYZI Typography"
+msgstr ""
+
+#: includes/theme-options.php:625
+msgid "The Typography of your site"
+msgstr ""
+
+#: includes/theme-options.php:632
+msgid "WYZI Google Fonts"
+msgstr ""
+
+#: includes/theme-options.php:633
+msgid "Main font family for the site"
+msgstr ""
+
+#: includes/theme-options.php:647
+msgid "H1"
+msgstr ""
+
+#: includes/theme-options.php:648
+msgid "Header H1 font"
+msgstr ""
+
+#: includes/theme-options.php:655
+msgid "H2"
+msgstr ""
+
+#: includes/theme-options.php:656
+msgid "Header H2 font"
+msgstr ""
+
+#: includes/theme-options.php:663
+msgid "H3"
+msgstr ""
+
+#: includes/theme-options.php:664
+msgid "Header H3 font"
+msgstr ""
+
+#: includes/theme-options.php:671
+msgid "H4"
+msgstr ""
+
+#: includes/theme-options.php:672
+msgid "Header H4 font"
+msgstr ""
+
+#: includes/theme-options.php:679
+msgid "H5"
+msgstr ""
+
+#: includes/theme-options.php:680
+msgid "Header H5 font"
+msgstr ""
+
+#: includes/theme-options.php:687
+msgid "H6"
+msgstr ""
+
+#: includes/theme-options.php:688
+msgid "Header H6 font"
+msgstr ""
+
+#: includes/theme-options.php:699
+msgid "Footer Options"
+msgstr ""
+
+#: includes/theme-options.php:707
+msgid "Enable footer widget area"
+msgstr ""
+
+#: includes/theme-options.php:714
+msgid "Number of Footer Columns"
+msgstr ""
+
+#: includes/theme-options.php:722
+msgid "Show Copyrights"
+msgstr ""
+
+#: includes/theme-options.php:729
+msgid "Copyright"
+msgstr ""
+
+#: includes/theme-options.php:730
+msgid "Copyright text. Displays at the left side of the footer."
+msgstr ""
+
+#: includes/theme-options.php:742
+msgid "Color Options"
+msgstr ""
+
+#: includes/theme-options.php:743
+msgid "Customise your site's color options"
+msgstr ""
+
+#: includes/theme-options.php:750
+msgid "Site Background"
+msgstr ""
+
+#: includes/theme-options.php:751
+msgid "Set the background color/image of your site"
+msgstr ""
+
+#: includes/theme-options.php:758
+msgid "Footer background color"
+msgstr ""
+
+#: includes/theme-options.php:771
+msgid ""
+"Here you can add all your custom css code. This will override the theme's "
+"current css."
+msgstr ""
+
+#: includes/theme-options.php:791
+msgid ""
+"Here you can add all your custom javascript code (Dont place your code "
+"inside script tags)"
+msgstr ""
+
+#: includes/theme-options.php:811
+msgid "Accessories Options"
+msgstr ""
+
+#: includes/theme-options.php:812
+msgid "Here are the options for all the theme's accessory features"
+msgstr ""
+
+#: includes/theme-options.php:819
+msgid "Geolocation"
+msgstr ""
+
+#: includes/theme-options.php:820
+msgid ""
+"Enable/Disable tracking user's location. This allows users to search for "
+"businesses within a specific distance."
+msgstr ""
+
+#: includes/theme-options.php:827
+msgid "Sticky Menu"
+msgstr ""
+
+#: includes/theme-options.php:828
+msgid "Allow menu to stick to top of the page"
+msgstr ""
+
+#: includes/theme-options.php:835
+msgid "Page Loader"
+msgstr ""
+
+#: includes/theme-options.php:836
+msgid "Display an overlay above the screen that fades away when the page loads"
+msgstr ""
+
+#: includes/theme-options.php:843
+msgid "Page Loader Color"
+msgstr ""
+
+#: includes/theme-options.php:844
+msgid "Icon color of the page loader"
+msgstr ""
+
+#: includes/theme-options.php:852
+msgid "Page Loader BG Color"
+msgstr ""
+
+#: includes/theme-options.php:853
+msgid "Background color of the page loader"
+msgstr ""
+
+#: includes/theme-options.php:861
+msgid "Scroll To Top"
+msgstr ""
+
+#: includes/theme-options.php:862
+msgid "Enable/Disable button to scroll to top"
+msgstr ""
+
+#: includes/theme-options.php:869
+msgid "Scroll Icon color"
+msgstr ""
+
+#: includes/theme-options.php:870
+msgid "Set the color of the scroll to top icon"
+msgstr ""
+
+#: includes/theme-options.php:878
+msgid "Scroll Background color"
+msgstr ""
+
+#: includes/theme-options.php:879
+msgid "Set the background color of the scroll to top icon"
+msgstr ""
+
+#: includes/theme-options.php:887
+msgid "Scroll Icon position"
+msgstr ""
+
+#: includes/theme-options.php:888
+msgid "on which side you want the icon to be."
+msgstr ""
+
+#: includes/theme-options.php:896
+msgid "Left"
+msgstr ""
+
+#: includes/theme-options.php:901
+msgid "Right"
+msgstr ""
+
+#: includes/theme-options.php:908
+msgid "Hide EG/Rev Metaboxes"
+msgstr ""
+
+#: includes/theme-options.php:909
+msgid ""
+"Hide Essential Grid and Rev Slider metaboxes from Screen options in page "
+"editor"
+msgstr ""
+
+#: includes/theme-options.php:917
+msgid "Nice Scroll"
+msgstr ""
+
+#: includes/theme-options.php:918
+msgid "Enable/Disable nice scroll"
+msgstr ""
+
+#: includes/theme-options.php:925
+msgid "Scrollbar Color"
+msgstr ""
+
+#: includes/theme-options.php:926
+msgid "Set the color of the scrollbar."
+msgstr ""
+
+#: includes/theme-options.php:934
+msgid "Scrollbar Border Width"
+msgstr ""
+
+#: includes/theme-options.php:935
+msgid "Set the width of the scrollbar in px."
+msgstr ""
+
+#: includes/theme-options.php:947
+msgid "Social Links Options"
+msgstr ""
+
+#: includes/theme-options.php:955
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/theme-options.php:956
+msgid ""
+"The link to your twitter account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:963
+msgid "Google+ Link"
+msgstr ""
+
+#: includes/theme-options.php:964
+msgid ""
+"The link to your google plus account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:971
+msgid "Linkedin Link"
+msgstr ""
+
+#: includes/theme-options.php:972
+msgid ""
+"The link to your linkedin account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:979
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/theme-options.php:980
+msgid ""
+"The link to your facebook account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:987
+msgid "Youtube Link"
+msgstr ""
+
+#: includes/theme-options.php:988
+msgid ""
+"The link to your Youtube account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:995
+msgid "Instagram Link"
+msgstr ""
+
+#: includes/theme-options.php:996
+msgid ""
+"The link to your Instagram account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:1003
+msgid "Flickr Link"
+msgstr ""
+
+#: includes/theme-options.php:1004
+msgid ""
+"The link to your Flickr account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:1011
+msgid "Pinterest Link"
+msgstr ""
+
+#: includes/theme-options.php:1012
+msgid ""
+"The link to your Pinterest account.<br/>Make sure to have https:// at the "
+"beginning of your link."
+msgstr ""
+
+#: includes/theme-options.php:1019
+msgid "FaceBook App ID"
+msgstr ""
+
+#: includes/theme-options.php:1020
+msgid ""
+"Your FaceBook App ID, it is required if you want Facebook Like Box "
+"functionality.<br/><a target=\"_blank\" href=\"https://developers.facebook."
+"com/docs/apps/register\">How to get a facebook App ID</a>"
+msgstr ""
+
+#: includes/theme-options.php:1031
+msgid "Contact Options"
+msgstr ""
+
+#: includes/theme-options.php:1039
+msgid "Contact Email"
+msgstr ""
+
+#: includes/theme-options.php:1040
+msgid "The email to send contact messages to, admin email is default"
+msgstr ""
+
+#: includes/theme-options.php:1047
+msgid "Contact Phone Number"
+msgstr ""
+
+#: includes/theme-options.php:1048
+msgid "The phone number that displays in the top social-links bar"
+msgstr ""
+
+#: includes/theme-options.php:1055
+msgid "Client Signup Mail"
+msgstr ""
+
+#: includes/theme-options.php:1056
+msgid "The format of the email to send to users upon signup."
+msgstr ""
+
+#: includes/theme-options.php:1056
+msgid "Keywords: %USERNAME%,%EMAIL%,%FIRSTNAME%,%LASTNAME%,%SUBSCRIBTION%"
+msgstr ""
+
+#: includes/theme-options.php:1064
+msgid "Business Owner Signup Mail"
+msgstr ""
+
+#: includes/theme-options.php:1065
+msgid ""
+"The format of the email to send to business owners upon business "
+"registration."
+msgstr ""
+
+#: includes/theme-options.php:1065
+msgid "Keywords: %USERNAME%, %FIRSTNAME%, %LASTNAME%, %EMAIL%, %SUBSCRIBTION%,"
+msgstr ""
+
+#: includes/theme-options.php:1073
+msgid "New Business Submission Admin Notice Mail"
+msgstr ""
+
+#: includes/theme-options.php:1074
+msgid ""
+"The format of the email to send to the admin upon new business registration."
+msgstr ""
+
+#: includes/theme-options.php:1074
+msgid "Keywords: %USERNAME%, %BUSINESSNAME%"
+msgstr ""
+
+#: includes/theme-options.php:1082
+msgid "Business Contact Mail"
+msgstr ""
+
+#: includes/theme-options.php:1083
+msgid "The format of the email to send to business owners upon Contact."
+msgstr ""
+
+#: includes/theme-options.php:1083
+msgid "Keywords: %NAME%,%EMAIL%,%PHONE%,%MESSAGE%, %BUSINESSNAME%"
+msgstr ""
+
+#: includes/theme-options.php:1091
+msgid "Points Purchased Mail"
+msgstr ""
+
+#: includes/theme-options.php:1092
+msgid "The format of the email to send to users once they purchase points."
+msgstr ""
+
+#: includes/theme-options.php:1092
+msgid "Keywords: %USERNAME%,%POINTS%,%PRICE%"
+msgstr ""
+
+#: includes/theme-options.php:1105
+msgid "Customise your Default Images"
+msgstr ""
+
+#: includes/theme-options.php:1112
+msgid "Default Business Logo"
+msgstr ""
+
+#: includes/theme-options.php:1113
+msgid "Image to display in case a business doesn't have a logo"
+msgstr ""
+
+#: includes/theme-options.php:1119
+msgid "Default Offer Image"
+msgstr ""
+
+#: includes/theme-options.php:1120
+msgid "Image to display in case an Offer doesn't have a featured image"
+msgstr ""
+
+#: includes/theme-options.php:1126
+msgid "Default Location Image"
+msgstr ""
+
+#: includes/theme-options.php:1127
+msgid "Image to display in case a location doesn't have a featured Image"
+msgstr ""
+
+#: includes/theme-options.php:1137
+msgid "404 Page Options"
+msgstr ""
+
+#: includes/theme-options.php:1138
+msgid "Customise your 404 page"
+msgstr ""
+
+#: includes/theme-options.php:1145
+msgid "Title"
+msgstr ""
+
+#: includes/theme-options.php:1146
+msgid "The title of the 404 page."
+msgstr ""
+
+#: includes/theme-options.php:1153
+msgid "Page Content"
+msgstr ""
+
+#: includes/theme-options.php:1154
+msgid "The content to display in the 404 page."
+msgstr ""
+
+#: includes/theme-options.php:1167
+msgid "Upload Favicon"
+msgstr ""
+
+#: includes/theme-options.php:1168
+msgid ""
+"Upload the favicon of the site, recommended dimensions 16x16 and .ico "
+"extension"
+msgstr ""
+
+#: includes/theme-options.php:1168
+msgid "Choose Favicon"
+msgstr ""
+
+#: sidebar/register-sidebars.php:7
+msgid "Default Sidebar"
+msgstr ""
+
+#: sidebar/register-sidebars.php:9
+msgid "The default sidebar appears on the default page templates"
+msgstr ""
+
+#: sidebar/register-sidebars.php:16
+msgid "Right Sidebar"
+msgstr ""
+
+#: sidebar/register-sidebars.php:18
+msgid "Appears on the right sidebar page templates"
+msgstr ""
+
+#: sidebar/register-sidebars.php:25
+msgid "Left Sidebar"
+msgstr ""
+
+#: sidebar/register-sidebars.php:27
+msgid "Appears on the Left page templates"
+msgstr ""
+
+#: sidebar/register-sidebars.php:34
+msgid "Shop Sidebar"
+msgstr ""
+
+#: sidebar/register-sidebars.php:36
+msgid "Appears on the Shop page template"
+msgstr ""
+
+#: sidebar/register-sidebars.php:43
+msgid "Contact Sidebar"
+msgstr ""
+
+#: sidebar/register-sidebars.php:45
+msgid "Appears on the Contact page templates"
+msgstr ""
+
+#: sidebar/register-sidebars.php:52
+msgid "Footer 1"
+msgstr ""
+
+#: sidebar/register-sidebars.php:54
+msgid "contains widgets to be displayed in 1st footer area"
+msgstr ""
+
+#: sidebar/register-sidebars.php:61
+msgid "Footer 2"
+msgstr ""
+
+#: sidebar/register-sidebars.php:63
+msgid "contains widgets to be displayed in 2nd footer area"
+msgstr ""
+
+#: sidebar/register-sidebars.php:70
+msgid "Fotter 3"
+msgstr ""
+
+#: sidebar/register-sidebars.php:72
+msgid "contains widgets to be displayed in 3rd footer area"
+msgstr ""
+
+#: sidebar/register-sidebars.php:79
+msgid "Footer 4"
+msgstr ""
+
+#: sidebar/register-sidebars.php:81
+msgid "contains widgets to be displayed in 4th footer area"
+msgstr ""
+
+#: sidebar/register-sidebars.php:88
+msgid "Business Listing Sidebar"
+msgstr ""
+
+#: sidebar/register-sidebars.php:90
+msgid "Shown on Business Listing template"
+msgstr ""
+
+#: sidebar/register-sidebars.php:97
+msgid "Business Categories"
+msgstr ""
+
+#: sidebar/register-sidebars.php:99
+msgid "Shown on Categories/Tags Businesses List"
+msgstr ""
+
+#: sidebar/register-sidebars.php:107
+msgid "Single Business"
+msgstr ""
+
+#: sidebar/register-sidebars.php:109
+msgid "Shown on the single business page"
+msgstr ""
+
+#: templates/related-posts.php:10
+msgid "Related Stories"
+msgstr ""
+
+#: templates/related-posts.php:40 wyz-core/wyz-hooks.php:18
+#: wyz-core/wyz-hooks.php:29
+msgid "read more"
+msgstr ""
+
+#: templates/404/404-1.php:11
+msgid "Error 404"
+msgstr ""
+
+#: templates/404/404-1.php:20
+msgid "ERROR PAGE - WHAT YOU ARE LOOKING FOR IS NOT HERE"
+msgstr ""
+
+#: templates/404/404-2.php:5
+msgid "Error 404 - Page Not Found."
+msgstr ""
+
+#: templates/404/404-2.php:10
+#, php-format
+msgid "Don’t Worry,   Back to the %sHome%s Page."
+msgstr ""
+
+#: templates/comments/comments-1.php:6
+msgid "Comments"
+msgstr ""
+
+#: templates/comments/comments-1.php:8
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/comments/comments-1.php:16 templates/comments/comments-2.php:11
+msgid "Older Comments"
+msgstr ""
+
+#: templates/comments/comments-1.php:18 templates/comments/comments-2.php:13
+msgid "Newer Comments"
+msgstr ""
+
+#: templates/comments/comments-1.php:34
+msgid "post a comment"
+msgstr ""
+
+#: templates/comments/comments-1.php:36 templates/comments/comments-2.php:29
+msgid "Cancel"
+msgstr ""
+
+#: templates/comments/comments-1.php:38 templates/comments/comments-2.php:31
+msgid "Name"
+msgstr ""
+
+#: templates/comments/comments-1.php:39 templates/comments/comments-2.php:32
+msgid "Email Address"
+msgstr ""
+
+#: templates/comments/comments-1.php:40 templates/comments/comments-2.php:33
+msgid "Website"
+msgstr ""
+
+#: templates/comments/comments-1.php:43 templates/comments/comments-2.php:25
+msgid "COMMENT"
+msgstr ""
+
+#: templates/comments/comments-1.php:44 templates/comments/comments-2.php:37
+msgid "submit"
+msgstr ""
+
+#: templates/comments/comments-1.php:54 templates/comments/comments-2.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: templates/comments/comments-2.php:4
+#, php-format
+msgid "Comments (%d)"
+msgstr ""
+
+#: templates/comments/comments-2.php:27
+msgid "Leave a comment"
+msgstr ""
+
+#: templates/headers/header-1.php:70 templates/headers/header-2.php:124
+msgid "Sign In"
+msgstr ""
+
+#: templates/headers/header-1.php:123
+msgid "Sign in"
+msgstr ""
+
+#: templates/headers/header-1.php:123
+msgid "sign in"
+msgstr ""
+
+#: templates/headers/header-1.php:123
+msgid "Signup"
+msgstr ""
+
+#: templates/headers/header-1.php:123
+msgid "Sign Up"
+msgstr ""
+
+#: templates/headers/header-1.php:126 templates/headers/header-2.php:162
+#: templates/headers/header-2.php:210
+msgid "my account"
+msgstr ""
+
+#: templates/headers/header-1.php:145
+msgid "My Account"
+msgstr ""
+
+#: templates/headers/header-1.php:145 templates/headers/header-2.php:181
+#: templates/headers/header-2.php:229
+msgid "Logout"
+msgstr ""
+
+#: templates/headers/header-1.php:145
+msgid "logout"
+msgstr ""
+
+#: templates/headers/header-2.php:126 templates/headers/header.php:82
+#: wyz-core/wyz-core-functions.php:108
+msgid "Reset Password"
+msgstr ""
+
+#: templates/headers/header-2.php:147 templates/headers/header-2.php:158
+msgid "Login"
+msgstr ""
+
+#: templates/headers/header-2.php:147 templates/headers/header-2.php:158
+msgid "Register"
+msgstr ""
+
+#: templates/headers/header-2.php:180 templates/headers/header-2.php:228
+#, php-format
+msgid "Welcome %s"
+msgstr ""
+
+#: templates/headers/header-2.php:232
+msgid "Welcome User"
+msgstr ""
+
+#: templates/headers/header.php:42
+msgid "Blog"
+msgstr ""
+
+#: templates/headers/header.php:44
+#, php-format
+msgid "Categories Archives: %s"
+msgstr ""
+
+#: templates/headers/header.php:46
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: templates/headers/header.php:48
+#, php-format
+msgid "All Posts by %s"
+msgstr ""
+
+#: templates/headers/header.php:50
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: templates/headers/header.php:52
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: templates/headers/header.php:54
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: templates/headers/header.php:58 templates/headers/header.php:65
+#, php-format
+msgid "%s Category: %s"
+msgstr ""
+
+#: templates/headers/header.php:70 templates/headers/header.php:72
+#, php-format
+msgid "%s Tag"
+msgstr ""
+
+#: templates/headers/header.php:74 templates/headers/header.php:76
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: templates/headers/header.php:78
+msgid "SEARCH RESULTS FOR: "
+msgstr ""
+
+#: templates/layouts/contact/contact-1.php:15
+#: templates/layouts/contact/contact-2.php:15
+msgid "Featured"
+msgstr ""
+
+#: templates/layouts/contact/contact-1.php:18
+#: templates/layouts/contact/contact-2.php:18
+#: wyz-core/wyz-core-functions.php:183
+msgid "Pages:"
+msgstr ""
+
+#: templates/page/page-1.php:19 templates/page/page-2.php:19
+msgid "Pages"
+msgstr ""
+
+#: templates/post/post-2.php:12 templates/post/post-sticky2.php:15
+#: templates/search/search-content-2.php:12 templates/single/single-2.php:26
+#, php-format
+msgid "By: %s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:393
+#: TGMPA/class-tgm-plugin-activation.php:912
+#: TGMPA/class-tgm-plugin-activation.php:2618
+#: TGMPA/class-tgm-plugin-activation.php:3633
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:394
+#: TGMPA/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:395
+#: TGMPA/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:1019
+#: TGMPA/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:1206
+#: TGMPA/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3551
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3554
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3556
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3560
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3562
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3562
+#: TGMPA/class-tgm-plugin-activation.php:3570
+msgid "Show Details"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3562
+#: TGMPA/class-tgm-plugin-activation.php:3570
+msgid "Hide Details"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3563
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3565
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3568
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3570
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3571
+msgid "All installations have been completed."
+msgstr ""
+
+#: TGMPA/class-tgm-plugin-activation.php:3573
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wyz-core/theme-options-filters.php:82 wyz-core/theme-options-filters.php:90
+msgid "WYZI Options"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:44
+msgid "Tags"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:110
+msgid "Locations"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:116
+msgid "New Business"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:118
+msgid "Edit Business"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:120
+msgid "Add New"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:122
+msgid "Edit"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:125
+msgid "Manage"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:128
+msgid "Calendar"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:154
+msgid "Go To Home"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:229 wyz-core/wyz-core-functions.php:321
+msgid "Next post:"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:231 wyz-core/wyz-core-functions.php:323
+msgid "Previous post:"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:268 wyz-core/wyz-core-functions.php:360
+msgid "Previous Page"
+msgstr ""
+
+#: wyz-core/wyz-core-functions.php:301 wyz-core/wyz-core-functions.php:393
+msgid "Next Page"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:43
+msgid "Display page title"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:51
+msgid "Hide page title on this page?"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:69
+msgid "See-through Menu"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:77
+msgid "Make Menu See-Through on this page?"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:84
+msgid "Menu Background color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:86 wyz-core/wyz-hooks.php:101
+msgid "Click \"Clear\" to make the menu background transparent"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:92
+msgid "Mobile Menu Background color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:99
+msgid "Menu Borders color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:107
+msgid "Font color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:113
+msgid "Mobile Font color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:119
+msgid "Submenu Font color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:125
+msgid "Submenu background color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:131
+msgid "Font Hover color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:137
+msgid "Active Font color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:143
+msgid "Mobile Active Font color"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:149
+msgid "Box Shadow"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:156
+msgid "Alternate Logo"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:157
+msgid "This logo appears on this page only, defaults to the site's logo"
+msgstr ""
+
+#: wyz-core/wyz-hooks.php:163
+msgid "Add Logo"
+msgstr ""

@@ -1,0 +1,48 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">product</custom-type>
+    <custom-type translate="1">product_variation</custom-type>
+    <custom-type translate="1">shop_order</custom-type>
+    <custom-type translate="1">shop_order_refund</custom-type>
+    <custom-type translate="1">shop_coupon</custom-type>
+    <custom-type translate="1">shop_webhook</custom-type>
+    <custom-type translate="1">wyz_business</custom-type>
+    <custom-type translate="1">wyz_business_post</custom-type>
+    <custom-type translate="1">wyz_business_rating</custom-type>
+    <custom-type translate="1">wyzi_claimrequest</custom-type>
+    <custom-type translate="1">wyz_location</custom-type>
+    <custom-type translate="1">vc4_templates</custom-type>
+    <custom-type translate="1">wpcf7_contact_form</custom-type>
+    <custom-type translate="1">dc_commission</custom-type>
+    <custom-type translate="1">wcmp_transaction</custom-type>
+    <custom-type translate="1">wcmp_university</custom-type>
+    <custom-type translate="1">wcmp_vendor_notice</custom-type>
+    <custom-type translate="1">wcmp_vendorrequest</custom-type>
+    <custom-type translate="1">vc_grid_item</custom-type>
+    <custom-type translate="1">wyz_offers</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">product_type</taxonomy>
+    <taxonomy translate="1">product_cat</taxonomy>
+    <taxonomy translate="1">product_tag</taxonomy>
+    <taxonomy translate="1">product_shipping_class</taxonomy>
+    <taxonomy translate="1">pa_pa_points_value</taxonomy>
+    <taxonomy translate="1">wyz_business_rating_category</taxonomy>
+    <taxonomy translate="1">wyz_business_category</taxonomy>
+    <taxonomy translate="1">wyz_business_tag</taxonomy>
+    <taxonomy translate="1">dc_vendor_shop</taxonomy>
+    <taxonomy translate="1">offer-categories</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="option_tree">
+      <key name="blog-title"/>
+      <key name="support-text"/>
+      <key name="copyrights-text"/>
+      <key name="contact-number"/>
+      <key name="user-greeting-mail"/>
+      <key name="business-owner-greeting-mail"/>
+      <key name="404_title"/>
+      <key name="404_textarea"/>
+    </key>
+  </admin-texts>
+</wpml-config>
