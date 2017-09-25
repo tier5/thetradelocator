@@ -11,3 +11,32 @@ Tags: one-column, left-sidebar, right-sidebar, custom-background, custom-colors,
 Version: 2.0.3
 
 */
+.wyz-button.blue{background: #092C70;}
+.sin-added-item .text > a{color: #092C70 !important;}
+.wyz-button.orange{background: #092C70 !important;}
+.sin-footer .widget-title::before{background-color: #fff;}
+
+.location-search .input-submit button, .location-search .input-submit input{background: #092C70 !important;}
+
+.wyz-search-form button{background: #092C70 !important;}
+
+.busi-contact-form input[type="submit"]{background: #092C70 !important;}
+.orange .rangeslider .range_handle{background: #092C70 !important;}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .wcmp_regi_main .button, .wyz_claim_form_main input[type="file"]::-webkit-file-upload-button, .wcmp_regi_main input[type="file"]::-webkit-file-upload-button
+{background: #092C70 !important;}
+.footer-menu ul li a:hover{color: #fff !important;}
+.header-top-left p a:hover{color: #fff !important;}
+.wyz-button:hover, .wyz-button:focus{background-color: #000;}
+.sub-menu li a:hover, .sub-menu li a:hover > i{color: #092C70 !important;}
+
+.main-menu nav > ul > li, .login-menu > ul > li{margin-right: 22px !important;}
+
+
+
+@media screen and (max-width: 399px) {
+
+	.header-logo a img{width: 191px !important;}
+
+
+}
