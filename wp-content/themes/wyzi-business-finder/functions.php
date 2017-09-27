@@ -105,4 +105,25 @@ require_once( WYZ_THEME_DIR . '/TGMPA/setup.php' );
 
 // Specify the number of Items per shop page in Woocommerce
 add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 8;' ), 20 );
+
+
+function wcgod_add_our_script() {
+
+	wp_register_script( 'ajax-js', get_template_directory_uri(). '/js/get.cart.content.total.js', array( 'jquery' ), '', true );
+	wp_localize_script( 'ajax-js', 'ajax_params', array( 'ajax_url' => admin_url( 'admin-ajax.php' ) ) );
+	wp_enqueue_script( 'ajax-js' );
+	
+}
+add_action( 'wp_enqueue_scripts', 'wcgod_add_our_script' );
+
+function wcgod_cart_content_ajax_function() {
+
+	global $woocommerce;
+	$cart_contents_count = $woocommerce->cart->cart_contents_count+1;
+	echo $cart_contents_count;
+	wp_die();
+}
+add_action("wp_ajax_wcgod_cart_content_ajax_function","wcgod_cart_content_ajax_function");
+add_action("wp_ajax_nopriv_wcgod_cart_content_ajax_function","wcgod_cart_content_ajax_function");
+
 ?>

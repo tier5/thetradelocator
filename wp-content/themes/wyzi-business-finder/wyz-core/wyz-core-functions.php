@@ -159,6 +159,11 @@ function wyz_no_content_search_form() {?>
  * Display sicial like boxes.
  */
 function wyz_social_links() {
+
+	global $woocommerce;
+    $cart_url = $woocommerce->cart->get_cart_url();
+    $cart_contents_count = $woocommerce->cart->cart_contents_count;
+	
 	$links = array( 'facebook', 'twitter', 'linkedin', 'google-plus', 'youtube-play', 'flickr', 'pinterest-p', 'instagram' );
 
 	$result = '<span class="header-social-container">';
@@ -169,6 +174,8 @@ function wyz_social_links() {
 			$result .= '<a href="' . esc_url( $social ) . '" class="' . esc_attr( $link ) . '" target=_blank ><i class="fa fa-' . esc_attr( $link ) . '"></i></a>';
 		}
 	}
+
+	$result .='<a href="'.$cart_url.'" class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="cart-count">'.$cart_contents_count.'</span></a>';
 
 	$result .= '</span>';
 
