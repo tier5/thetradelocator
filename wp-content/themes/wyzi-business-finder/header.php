@@ -18,7 +18,7 @@
 		<link rel="icon" type="image/x-icon" href="<?php echo esc_url( wyz_get_option( 'favicon-upload' ) );?>">
 	<?php }
 	 wp_head();?>
-
+<script src="https://checkout.stripe.com/checkout.js"></script>
 </head>
 
 <?php 

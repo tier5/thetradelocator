@@ -110,8 +110,10 @@ add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 8;' ), 20 );
 function wcgod_add_our_script() {
 
 	wp_register_script( 'ajax-js', get_template_directory_uri(). '/js/get.cart.content.total.js', array( 'jquery' ), '', true );
-	wp_localize_script( 'ajax-js', 'ajax_params', array( 'ajax_url' => admin_url( 'admin-ajax.php' ) ) );
+
+		wp_localize_script( 'ajax-js', 'ajax_params', array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'home' => home_url(), 'template_folder' => get_template_directory_uri() ) );
 	wp_enqueue_script( 'ajax-js' );
+	
 	
 }
 add_action( 'wp_enqueue_scripts', 'wcgod_add_our_script' );
@@ -125,5 +127,18 @@ function wcgod_cart_content_ajax_function() {
 }
 add_action("wp_ajax_wcgod_cart_content_ajax_function","wcgod_cart_content_ajax_function");
 add_action("wp_ajax_nopriv_wcgod_cart_content_ajax_function","wcgod_cart_content_ajax_function");
+
+
+
+function wcgod_autoLoginUser($user_id){
+$user = get_user_by( 'id', $user_id );
+if( $user ) {
+wp_set_current_user( $user_id, $user->user_login );
+wp_set_auth_cookie( $user_id );
+do_action( 'wp_login', $user->user_login, $user);
+}
+}
+
+
 
 ?>
