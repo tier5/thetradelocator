@@ -32,6 +32,14 @@ Version: 2.0.3
 
 .main-menu nav > ul > li, .login-menu > ul > li{margin-right: 22px !important;}
 
+.stripe_subs{margin-top: 25px; text-align: center;}
+
+.register-form .orange{width: 120px; margin: 0 auto;}
+
+.register-form .fix{overflow: visible;}
+
+.error{ color: red; }
+
 
 
 @media screen and (max-width: 399px) {
