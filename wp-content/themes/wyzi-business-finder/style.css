@@ -34,11 +34,29 @@ Version: 2.0.3
 
 .stripe_subs{margin-top: 25px; text-align: center;}
 
-.register-form .orange{width: 120px; margin: 0 auto;}
+.register-form .orange{width: 154px; margin: 0 auto;}
 
 .register-form .fix{overflow: visible;}
 
 .error{ color: red; }
+
+#plans_wrapper {
+     width: 100%;
+     margin: 0 auto;
+}
+#plans_leftcolumn, #plans_rightcolumn {
+    border: 1px solid white;
+    float: left;
+    min-height: 450px;
+    color: black;
+}
+#plans_leftcolumn {
+     width: 50%;
+     
+#plans_rightcolumn {
+     width: 50%;
+    
+}
 
 
 

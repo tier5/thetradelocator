@@ -31,6 +31,7 @@ if ( function_exists( 'wyz_get_theme_template' ) ) {
 							<?php dynamic_sidebar( 'wyz-business-listing-sb' ); ?>
 						</div>
 				<?php endif; ?>
+
 			</div>
 			<?php }?>
 

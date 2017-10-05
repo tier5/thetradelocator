@@ -67,7 +67,7 @@ if ( ! class_exists( 'WYZIHeader' ) ) {
 							<div class="col-xs-12">
 								<div class="page-title float-left">
 									<h2><?php if ( is_page( 'signup' ) && isset( $_GET['action'] ) && 'login' == $_GET['action'] ) {
-											echo esc_html__( 'Sign In', 'wyzi-business-finder' );
+											echo esc_html__( 'LOGIN', 'wyzi-business-finder' );
 										} else {
 										esc_html( the_title( '', '' ) );
 									}?></h2>

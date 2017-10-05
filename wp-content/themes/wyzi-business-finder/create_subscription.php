@@ -27,7 +27,7 @@ try
       )
     );
   wcgod_autoLoginUser($user_id);
-  wp_redirect( site_url("user-account") );
+  wp_redirect( home_url() );
 
   //header('Location: thankyou.html');
   exit;

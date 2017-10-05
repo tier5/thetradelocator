@@ -111,7 +111,7 @@ function wcgod_add_our_script() {
 
 	wp_register_script( 'ajax-js', get_template_directory_uri(). '/js/get.cart.content.total.js', array( 'jquery' ), '', true );
 
-		wp_localize_script( 'ajax-js', 'ajax_params', array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'home' => home_url(), 'template_folder' => get_template_directory_uri(), 'stripe_test_key' => get_field('api_test_key') ) );
+		wp_localize_script( 'ajax-js', 'ajax_params', array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'home' => home_url(), 'template_folder' => get_template_directory_uri(), 'stripe_test_key' => get_option('edit_test_api_key'), 'stripe_mode' => get_option('edit_check_mode'), 'stripe_live_key' => get_option('edit_live_api_key') ) );
 	wp_enqueue_script( 'ajax-js' );
 	
 	
@@ -139,6 +139,10 @@ do_action( 'wp_login', $user->user_login, $user);
 }
 }
 
+/**
+* Adding Stripe Options page
+*/
+require_once get_template_directory()."/includes/stripe-options.php";
 
 
 ?>

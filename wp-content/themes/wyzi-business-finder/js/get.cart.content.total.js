@@ -30,13 +30,23 @@ jQuery(document).ready(function(){
 			jQuery("#stripe_subs_form").remove();
 			jQuery("#subscribtion").parent().closest('div').append('<div class="stripe_subs"><button type="button" class="wyz-button orange" id="customButton">SIGN UP <i class="fa fa-angle-right" aria-hidden="true"></i></button></div>');
 			jQuery(".register-form").append('<form id="stripe_subs_form" action="'+ajax_params.home+'/create-subscription" method="POST"><input type="hidden" class="ttl_stripe_uname" name="ttl_stripe_uname"><input type="hidden" class="ttl_stripe_email" name="ttl_stripe_email"><input type="hidden" class="ttl_stripe_password" name="ttl_stripe_password"></form>');
+			
+			var stripe_check_mode_key = (ajax_params.stripe_mode == "Live") ? ajax_params.stripe_live_key : ajax_params.stripe_test_key;
+			
 			var handler = StripeCheckout.configure({
-			  key: ajax_params.stripe_test_key,
+			  key: stripe_check_mode_key,
 			  image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
 			  locale: 'auto',
 			  token: function(token) {
 			    // You can access the token ID with `token.id`.
 			    // Get the token ID to your server-side code for use.
+			    var user_name = jQuery("input[name=wyz_user_register]").val();
+				var user_email = jQuery("input[name=wyz_user_email]").val();
+				var user_pass = jQuery("input[name=wyz_user_pass]").val();
+				jQuery(".ttl_stripe_uname").val(user_name);
+				jQuery(".ttl_stripe_email").val(user_email);
+				jQuery(".ttl_stripe_password").val(user_pass);
+
 			    jQuery("#stripe_subs_form").submit();
 			  }
 			});
@@ -46,18 +56,25 @@ jQuery(document).ready(function(){
 				
 				if(jQuery("input[name=wyz_user_register]").val() == "") {
 					jQuery("input[name=wyz_user_register]").parent().closest('div').append("<span class='error'>Enter Username</span>");
+					jQuery(".error").fadeOut("slow");
 				} else if(jQuery("input[name=wyz_user_email]").val() == "" ) {
 					jQuery("input[name=wyz_user_email]").parent().closest('div').append("<span class='error'>Enter Email</span>");
+					jQuery(".error").fadeOut("slow");
 				} else if(!isValidEmailAddress(jQuery("input[name=wyz_user_email]").val())) {
 					jQuery("input[name=wyz_user_email]").parent().closest('div').append("<span class='error'> Enter Valid Email</span>");
+					jQuery(".error").fadeOut("slow");
 				} else if(jQuery("input[name=wyz_user_first]").val() == "") {
 					jQuery("input[name=wyz_user_first]").parent().closest('div').append("<span class='error'>Enter First name</span>");
+					jQuery(".error").fadeOut("slow");
 				} else if(jQuery("input[name=wyz_user_last]").val() == "") {
 					jQuery("input[name=wyz_user_last]").parent().closest('div').append("<span class='error'>Enter Last name</span>");
+					jQuery(".error").fadeOut("slow");
 				} else if(jQuery("input[name=wyz_user_pass]").val() == "") {
 					jQuery("input[name=wyz_user_pass]").parent().closest('div').append("<span class='error'>Enter Password</span>");
+					jQuery(".error").fadeOut("slow");
 				} else if(jQuery("input[name=wyz_user_pass_confirm]").val() == "") {
 					jQuery("input[name=wyz_user_pass_confirm]").parent().closest('div').append("<span class='error'>Enter Confirm Password</span>");
+					jQuery(".error").fadeOut("slow");
 				} else {
 
 					// Open Checkout with further options:
@@ -84,12 +101,7 @@ jQuery(document).ready(function(){
 
 			jQuery(".wyz-button.orange.icon").css("display","none");
 			
-			var user_name = jQuery("input[name=wyz_user_register]").val();
-			var user_email = jQuery("input[name=wyz_user_email]").val();
-			var user_pass = jQuery("input[name=wyz_user_pass]").val();
-			jQuery(".ttl_stripe_uname").val(user_name);
-			jQuery(".ttl_stripe_email").val(user_email);
-			jQuery(".ttl_stripe_password").val(user_pass);
+			
 
 			
 		} else {
