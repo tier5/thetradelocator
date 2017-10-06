@@ -3,7 +3,10 @@
 
 require_once('stripe-php-master/init.php');
 
-\Stripe\Stripe::setApiKey("sk_test_RCEAoh9CEbMs3MPtRFeHB66v");
+$sk_key = (get_option("edit_check_mode")=="Test")? get_option("edit_test_secret_key") : get_option("edit_live_secret_key");
+
+
+\Stripe\Stripe::setApiKey($sk_key);
 
 //print_r($_REQUEST);
 try
@@ -11,7 +14,7 @@ try
   $customer = \Stripe\Customer::create(array(
     'email' => $_POST['stripeEmail'],
     'source'  => $_POST['stripeToken'],
-    'plan' => 'monthly_plan'
+    'plan' => get_option("edit_signup_plan")
   ));
 
   $username = $wpdb->escape(trim($_POST['ttl_stripe_uname']));

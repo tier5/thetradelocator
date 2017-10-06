@@ -203,14 +203,16 @@ if ( ! class_exists( 'WYZIHeader' ) ) {
 							$sup_txt = wyz_get_option( 'support-text' );
 							$sup_link = wyz_get_option( 'support-link' );
 							if ( '' !== $num ) {
-								echo '<p><i class="fa fa-phone"></i>' . esc_html( $num ) . '</p>';
+								echo '<p><i class="fa fa-phone"></i><a href="'.site_url("contact").'">Contact Us</a></p>';
 							}
 							if ( '' !== $sup_txt ) {
 								echo '<p><i class="fa fa-caret-right"></i><a href="' . esc_url( $sup_link ) . '">' . esc_html( $sup_txt ) . '</a></p>';
 							}
 							if ( 'off' != wyz_get_option( 'header_search_form' ) ) {?>
 							<div class="header-search float-left">
-								<?php get_search_form( true );?>
+								<?php //get_search_form( true );?>
+								<button class="yellow-btn">Get Listed Today <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+
 							</div>
 							<?php }?>
 						</div>

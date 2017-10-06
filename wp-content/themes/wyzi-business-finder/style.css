@@ -13,7 +13,7 @@ Version: 2.0.3
 */
 .wyz-button.blue{background: #092C70;}
 .sin-added-item .text > a{color: #092C70 !important;}
-.wyz-button.orange{background: #092C70 !important;}
+.wyz-button.orange{background: #ff6e1f !important;}
 .sin-footer .widget-title::before{background-color: #fff;}
 
 .location-search .input-submit button, .location-search .input-submit input{background: #092C70 !important;}
@@ -51,12 +51,43 @@ Version: 2.0.3
     color: black;
 }
 #plans_leftcolumn {
-     width: 50%;
-     
+     width: 32%;
+     margin-left: 24%;
+     }
 #plans_rightcolumn {
-     width: 50%;
+     width: 32%;
     
 }
+
+.yellow-btn{
+
+    background-color: #ff6e1f !important;
+    border: medium none;
+    border-radius: 50px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 31px !important;
+    line-height: 33px;
+    padding: 0 18px !important;
+    text-transform: uppercase;
+}
+
+.yellow-btn i{
+	background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 50px;
+    display: block;
+    float: right;
+    height: 25px;
+    line-height: 30px;
+    position: relative;
+    right: -10px;
+    text-align: center;
+    top: 3px;
+    width: 25px;
+}
+
 
 
 

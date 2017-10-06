@@ -37,6 +37,7 @@ endif;
 <script type="text/javascript">
 	jQuery(document).ready(function(){
 		var no_website ="<?php echo $is_website; ?>";
+		var register_now_link = "<?php echo site_url('signup'); ?>";
 		var login_check = "<?php echo $is_loggedin; ?>";
 		var signup_check = "<?php echo $is_signup_page; ?>";
 		var login_page_check = "<?php echo $is_login_page; ?>";
@@ -57,11 +58,36 @@ endif;
 
 		if(signup_check == "Signup"){
 			jQuery(".section-title h1").html("Register Now");
+
+			/*jQuery(".social-login-container a:first-child").click(function(e){
+				if(jQuery("#subscribtion").val() == "") {
+					jQuery("#subscribtion").parent().closest('div').append("<span class='error'>Please choose subscription plan</span>");
+					jQuery(".error").fadeOut("7000");
+					return false;
+				}
+			});
+
+			jQuery(".social-login-container a:last-child").click(function(e){
+				if(jQuery("#subscribtion").val() == "") {
+					jQuery("#subscribtion").parent().closest('div').append("<span class='error'>Please choose subscription plan</span>");
+					jQuery(".error").fadeOut("7000");
+					return false;
+				}
+			});*/
+			jQuery(".social-login-container a:first-child").hide();
+			jQuery(".social-login-container a:last-child").hide();
 		}
 
 		if(login_page_check == "Login"){
 			jQuery(".section-title h1").html("LOGIN TO YOUR ACCOUNT");
+
+			jQuery(".remember-forget-pass").append('<br><lebel>Don\'t have an account?</lebel><a href="'+register_now_link+'">Register Now</a>')
+
+			jQuery(".social-login-container a:first-child").hide();
+			jQuery(".social-login-container a:last-child").hide();
 		}
+
+
 
 	});
 </script>

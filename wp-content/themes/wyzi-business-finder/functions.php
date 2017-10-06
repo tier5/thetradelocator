@@ -144,5 +144,39 @@ do_action( 'wp_login', $user->user_login, $user);
 */
 require_once get_template_directory()."/includes/stripe-options.php";
 
+/**
+* Adding Stripe basic subscription
+*/
+function wcgod_create_subscription( $plan ){
+
+	require_once('stripe-php-master/init.php');
+
+	$sk_key = (get_option("edit_check_mode")=="Test")? get_option("edit_test_secret_key") : get_option("edit_live_secret_key");
+
+
+	\Stripe\Stripe::setApiKey($sk_key);
+
+
+	try
+	{
+		$customer = \Stripe\Customer::create(array(
+			'email' => $_POST['stripeEmail'],
+			'source'  => $_POST['stripeToken'],
+			'plan' => $plan
+			));
+
+		wp_redirect( home_url() );
+
+		exit;
+	}
+	catch(Exception $e)
+	{
+		print_r($e);
+		error_log("unable to sign up customer:" . $_POST['stripeEmail'].
+			", error:" . $e->getMessage());
+	}
+
+}
+
 
 ?>

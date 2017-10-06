@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
 			
 			jQuery(".stripe_subs").remove();
 			jQuery("#stripe_subs_form").remove();
-			jQuery("#subscribtion").parent().closest('div').append('<div class="stripe_subs"><button type="button" class="wyz-button orange" id="customButton">SIGN UP <i class="fa fa-angle-right" aria-hidden="true"></i></button></div>');
+			jQuery("#subscribtion").parent().closest('div').append('<div class="stripe_subs"><button type="button" class="wyz-button orange" id="customButton">REGISTER NOW <i class="fa fa-angle-right" aria-hidden="true"></i></button></div>');
 			jQuery(".register-form").append('<form id="stripe_subs_form" action="'+ajax_params.home+'/create-subscription" method="POST"><input type="hidden" class="ttl_stripe_uname" name="ttl_stripe_uname"><input type="hidden" class="ttl_stripe_email" name="ttl_stripe_email"><input type="hidden" class="ttl_stripe_password" name="ttl_stripe_password"></form>');
 			
 			var stripe_check_mode_key = (ajax_params.stripe_mode == "Live") ? ajax_params.stripe_live_key : ajax_params.stripe_test_key;

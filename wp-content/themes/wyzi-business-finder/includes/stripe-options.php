@@ -51,6 +51,9 @@ add_settings_section("section", "General Settings", null, "theme-options");
 
 //register_setting( $option_group, $option_name, $sanitize_callback );
 register_setting("section", "edit_check_mode");
+register_setting("section", "edit_signup_plan");
+register_setting("section", "edit_basic_web_plan");
+register_setting("section", "edit_unlimited_web_plan");
 register_setting("section", "edit_test_api_key");
 register_setting("section", "edit_test_secret_key");
 register_setting("section", "edit_live_api_key");
@@ -60,10 +63,13 @@ register_setting("section", "edit_live_secret_key");
 
 //add_settings_field( $id, $title, $callback, $page, $section, $args );
 add_settings_field("edit_check_mode", "Stripe Mode", "display_check_mode_element", "theme-options", "section");
+add_settings_field("edit_signup_plan", "Signup Plan", "display_signup_plan_element", "theme-options", "section");
+add_settings_field("edit_basic_web_plan", "Besic Website Plan", "display_basic_website_plan_element", "theme-options", "section");
+add_settings_field("edit_unlimited_web_plan", "Unlimited Website Plan", "display_unlimited_website_plan_element", "theme-options", "section");
 add_settings_field("edit_test_api_key", "Stripe test key", "display_test_key_element", "theme-options", "section");
 add_settings_field("edit_test_secret_key", "Stripe test secret key", "display_test_secret_key_element", "theme-options", "section");
 add_settings_field("edit_live_api_key", "Stripe live key", "display_live_key_element", "theme-options", "section");
-add_settings_field("edit_live_secret_key", "Stripe test secret key", "display_live_secret_key_element", "theme-options", "section");
+add_settings_field("edit_live_secret_key", "Stripe live secret key", "display_live_secret_key_element", "theme-options", "section");
 
 }
 
@@ -78,6 +84,29 @@ function display_check_mode_element()
     	<option value="Test" <?php echo get_option("edit_check_mode") =="Test"? "selected":"";?>>Test</option>
     	<option value="Live" <?php echo get_option("edit_check_mode") =="Live"? "selected":""; ?>>Live</option>
     </select>
+    
+<?php
+}
+function display_signup_plan_element()
+{
+?>
+    <input type="text" name="edit_signup_plan" style="width:600px;" id="edit_signup_plan" value="<?php echo get_option('edit_signup_plan'); ?> " />
+    
+<?php
+}
+
+function display_basic_website_plan_element()
+{
+?>
+    <input type="text" name="edit_basic_web_plan" style="width:600px;" id="edit_basic_web_plan" value="<?php echo get_option('edit_basic_web_plan'); ?> " />
+    
+<?php
+}
+
+function display_unlimited_website_plan_element()
+{
+?>
+    <input type="text" name="edit_unlimited_web_plan" style="width:600px;" id="edit_unlimited_web_plan" value="<?php echo get_option('edit_unlimited_web_plan'); ?> " />
     
 <?php
 }

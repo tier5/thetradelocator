@@ -13,3 +13,16 @@ vertical-align: top;
 line-height: 19px;
 right: 0;
 }
+
+input#coupon_code {
+	width :100px !important;
+}
+
+#login-menu a:last-child {
+    background-color:#ff6e1f;
+}
+
+
+#contact-map {
+    display:none;
+}

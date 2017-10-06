@@ -1,6 +1,18 @@
 <?php
 /* Template Name: Websites*/
 get_header();
+
+$is_loggedin = is_user_logged_in()? "Login":"Not";
+
+if($_REQUEST["plan"] == "basic") {
+
+	wcgod_create_subscription(get_option("edit_basic_web_plan"));
+}
+
+if($_REQUEST["plan"] == "ultimate") {
+
+	wcgod_create_subscription(get_option("edit_unlimited_web_plan"));
+}
 ?>
 <div class="margin-bottom-100">
 	<div class="container">
@@ -19,8 +31,12 @@ get_header();
 					<li>Contact Form</li>
 					<li>Photo Gallery</li>
 				</ul>
-				<button type="button" class="wyz-button orange" id="basicPlan">£90pm <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+				<button type="button" class="wyz-button orange" id="basicPlan">£90pm <i class="fa fa-angle-right" aria-hidden="true"></i></button><br><br>
+				<form id="basic_plan_form" action="" method="post">
+					<input type="hidden" name="plan" value="basic">
+				</form>
 			</div>
+			
 			<div class="ultimate_plan" id="plans_rightcolumn">
 				<h3>Unlimited Website</h3>
 				<ul>
@@ -34,8 +50,12 @@ get_header();
 					<li>Contact Form</li>
 					<li>Photo Gallery</li>
 				</ul>
-				<button type="button" class="wyz-button orange" id="unlimitedPlan">£199pm <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+				<button type="button" class="wyz-button orange" id="unlimitedPlan">£199pm <i class="fa fa-angle-right" aria-hidden="true"></i></button><br><br>
+				<form id="ultimate_plan_form" action="" method="post">
+					<input type="hidden" name="plan" value="ultimate">
+				</form>
 			</div>
+			
 			</div>
 		</div>
 	</div>
@@ -48,13 +68,19 @@ get_header();
 			  token: function(token) {
 			    // You can access the token ID with `token.id`.
 			    // Get the token ID to your server-side code for use.
-			    window.location = "<?php echo home_url(); ?>";
+			    
+			    jQuery("#basic_plan_form").submit();
 			  }
 			});
 
 			document.getElementById('basicPlan').addEventListener('click', function(e) {
 
-
+				var check_logged_in = "<?php echo $is_loggedin; ?>";
+				
+				if(check_logged_in == "Not") {
+					jQuery(".basic_plan").append('<span class="basic error">Please login</span>');
+					jQuery(".error").fadeOut("slow");
+				} else {
 					// Open Checkout with further options:
 					handler.open({
 						name: 'The Trade Locator',
@@ -63,7 +89,7 @@ get_header();
 						amount: 9000,
 						currency:"GBP"
 					});
-			  
+			  	}
 			  e.preventDefault();
 			});
 
@@ -83,12 +109,19 @@ get_header();
 			  token: function(token) {
 			    // You can access the token ID with `token.id`.
 			    // Get the token ID to your server-side code for use.
-			    window.location = "<?php echo home_url(); ?>";
+			    
+			    jQuery("#ultimate_plan_form").submit();
 			  }
 			});
 
 			document.getElementById('unlimitedPlan').addEventListener('click', function(e) {
 
+				var check_logged_in = "<?php echo $is_loggedin; ?>";
+				
+				if(check_logged_in == "Not") {
+					jQuery(".ultimate_plan").append('<span class="basic error">Please login</span>');
+					jQuery(".error").fadeOut("slow");
+				} else {
 
 					// Open Checkout with further options:
 					handlerUnlimited.open({
@@ -98,7 +131,7 @@ get_header();
 						amount: 19900,
 						currency:"GBP"
 					});
-			  
+			  	}
 			  e.preventDefault();
 			});
 
